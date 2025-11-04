@@ -1,6 +1,6 @@
 # Re-fi Tanzania - Minimalist Landing 🌍
 
-A minimalist glass morphism landing page for Re-fi Tanzania - Building a regenerative finance hub for African communities.
+Re-fi Tanzania - Building a regenerative finance hub for African communities.
 
 ## Features ✨
 
