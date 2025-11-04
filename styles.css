@@ -154,6 +154,20 @@ body {
 
 .logo-icon {
     font-size: 1.5rem;
+    display: inline-block;
+    animation: spinToAfrica 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+@keyframes spinToAfrica {
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(1440deg); /* 4 full spins */
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
 }
 
 .logo-text {
@@ -161,6 +175,20 @@ body {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.95);
     letter-spacing: 0.02em;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: slideInFromLeft 0.8s ease 2s forwards;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /* Hero Content */
