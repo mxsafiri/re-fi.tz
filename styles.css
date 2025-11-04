@@ -161,9 +161,12 @@ body {
 }
 
 .logo-icon {
-    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     animation: spinToAfrica 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 @keyframes spinToAfrica {
@@ -490,6 +493,11 @@ body {
     .logo {
         top: 1rem;
         left: 1rem;
+    }
+    
+    .logo-icon {
+        width: 40px;
+        height: 40px;
     }
     
     .logo-text {
