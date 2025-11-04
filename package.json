@@ -1,0 +1,13 @@
+{
+  "name": "refi-tanzania-landing",
+  "version": "1.0.0",
+  "description": "Re-fi Tanzania minimalist landing page",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'No build needed - static HTML site'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": ["landing-page", "refi", "tanzania"],
+  "author": "Re-fi Tanzania",
+  "license": "MIT"
+}
